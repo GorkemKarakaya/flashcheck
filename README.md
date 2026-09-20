@@ -56,16 +56,20 @@ Example output:
 ```
 [video] 13146 frames, 60.0 fps, 219.1 s
 
-[luminance] total flashes: 6
-[luminance] busiest one-second window: 1
+[luminance] total flashes: 9
+[luminance] busiest one-second window: 2
   >>> low risk: flashes present but below threshold
+  busiest moments (s): 27.4, 27.8
 
-[pattern] regular-pattern strength: 0.458
+[pattern] regular-pattern strength: 0.410
   >>> HIGH: strong periodic structure (stripe/pattern sensitivity risk)
 
 [advice]
   Add a photosensitivity warning to this video,
   in the description and in the opening seconds.
+
+  Note: this is a screening heuristic, not a certified
+  assessment. See README for limitations.
 ```
 
 ---
